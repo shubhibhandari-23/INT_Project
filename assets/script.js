@@ -13,7 +13,7 @@ const ready = callback => {
 function getCard(params) {
   return `
     <div class="md:w-1/2 lg:w-1/3 py-4 px-4">
-                <a href=/single.html?id=${params.id}>
+                <a href=${params.sourceUrl} target="_blank">
                   <div
                     class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg"
                   >
